@@ -9,6 +9,8 @@
 
 - 底部增加了友情链接（只有在安装了 <a href="http://www.noisky.cn/" target="_blank">Noisky</a> 修改的 <a href="https://github.com/noisky/Links-for-Rozv-Theme" target="_blank">Links插件</a> 才可显示,未安装不影响使用）
 
+- 优化了代码和图片的显示
+
 - 采用响应式设计，适配了手机版
 
 =============
