@@ -10,5 +10,4 @@
 	</article>
 </section>
 <?php $this->need('comments.php'); ?>
-<?php //$this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>

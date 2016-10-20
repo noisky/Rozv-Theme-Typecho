@@ -1,11 +1,12 @@
 <?php
 /**
- * 1.这是一套由 Noisky 修改的基于 Rozv 的模板，支持 Typecho 1.0
- * 2.顶部菜单栏使用了分类和独立页面。
- * 3.底部的友情链接只有在安装了 <a href="http://www.noisky.cn/" target="_blank">Noisky</a> 修改的 <a href="https://github.com/noisky/Links-for-Rozv-Theme" target="_blank">Links插件</a> 才可显示,未安装不影响使用。 
+ * 1.这是一套由 Noisky 修改的基于 Rozv 的简洁的响应式模板，支持 Typecho 1.0
+ * 2.适配了移动端页面
+ * 3.底部输出独立页面
+ * 4.去除了侧边栏
  * @package Rozv
  * @author Noisky
- * @version 1.1
+ * @version 1.2
  * @link http://www.noisky.cn
  * @原作者 摄氏度
  */
@@ -23,5 +24,4 @@ $this->need('header.php');
 	</section>
 <?php endwhile; ?>
 <?php $this->pageNav(); ?>
-<?php// $this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>

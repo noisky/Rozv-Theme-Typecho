@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6 {font-weight:400;}
 h1 {font-size:24px;}
 h2 {font-size:20px;}
 h3 {font-size:16px;}
+h3.panel-title {font-size:12px; color:#999;}
 h4,h5,h6 {font-size:14px;}
 hr {margin-top:20px; margin-bottom:20px; border:0; border-top:1px solid #eee;}
 img {border:none;}
@@ -28,7 +29,7 @@ input[type^="radio"] {border:none; background:none; width:auto;}
 code {font:14px/1.5 Consolas,"Andale Mono","DejaVu Sans Mono",monospace; padding:2px 4px; border-radius:4px; color:#C13; background:#f3f3f0; word-break:break-word;}
 pre {max-width:100%; overflow:auto; padding:1em; margin-bottom:.5em; line-height:1.6; font-size:15px; background:#f3f3f0;}
 pre code {padding:0;}
-blockquote {background:#f6f6f6; border-left:2px dashed #ddd; padding:5px 10px; margin-bottom:20px;}
+blockquote {background:#f6f6f6; border-left: 0.25em solid #ddd; padding:5px 10px; margin-bottom:20px;}
 blockquote p {margin-bottom:10px;}
 .aligncenter {display:block; margin-left:auto; margin-right:auto;}
 .alignleft {float:left;}
@@ -89,8 +90,9 @@ legend {font-weight:bold;}
 /* Comment */
 #comments {margin-top:20px;}
 #comments p {margin-bottom:15px;}
+.comments_state{margin-left: 20px;}
 .comments_box {border:1px solid #ddd; background:#fff; padding:24px;}
-.comments_count {text-align:right; margin-bottom:10px; font-size:12px; color:#999;}
+.comments_count {text-align:right; margin:10px 10px; font-size:12px; color:#999;}
 .comment-child {margin-left:42px; border-top:1px dashed #ddd; padding-top:15px;}
 .comment-list li {border-bottom:1px solid #ddd; margin-bottom:20px; position:relative;}
 .comment-list .comment-children li {border-bottom:none; margin-bottom:0;}
@@ -114,39 +116,34 @@ img.avatar {float:left; margin-right:10px;}
 #comment_form p {font-size:12px; margin:0 0 5px; clear:left;}
 #comment_form label {font-size:12px; color:#555; display:block;}
 #comment_form label .required {color:#C04E37; padding-left:5px;}
-#comment_form textarea {font-size:14px; height:80px; line-height:24px; padding:3px 4px; width:88%; margin-right:1%;}
+#comment_form textarea {font-size:14px; height:80px; line-height:24px; padding:3px 4px; width:95%;}
 #comment_form button {background:#666; border:1px solid #444; color:#fff; font-size:14px; cursor:pointer; text-shadow:1px 1px #000; height:32px; line-height:32px; width:8%; text-align:center; vertical-align:top;}
 #comment_form button:hover {background:#222; border-color:#000;}
 .login_meta {margin-bottom:10px; overflow:hidden;}
-.login_meta li {float:left; width:27%; margin-right:1%;}
-.login_meta input {width:99%; height:26px; font-size:14px;}
-.login_meta li.urltext {width:33%;}
-/* Sidebar */
-#sidebar {background:#fff; border:1px solid #ddd; padding:24px; margin-top:20px; width:800px; display:table; overflow:hidden;}
-.side_box {width:240px; display:table-cell; vertical-align:top;}
-.side_box a {color:#666;}
-.side_1 {padding-right:20px;}
-.side_2 {border-left:1px solid #ddd; border-right:1px solid #ddd; padding:0 19px; font-size:13px;}
-.side_3 {padding-left:20px;}
-.side_3 li {margin-bottom:15px; overflow:hidden;}
-.icon {float:left; margin-right:10px;}
-.icon a {background:url(images/icon.png) no-repeat; display:block; width:85px; height:24px; font-size:0; text-indent:-999; overflow: hidden;}
-.weibo a {background-position:0 0;}
-.tqq a {background-position:-85px 0;}
-.rss {background:url(images/rss.png) no-repeat 0 2px; padding-left:20px; float:left; margin-right:10px;}
+.login_meta li {float:none;}
+.login_meta input {font-size: 14px; padding: 5px 0;}
+input#author,input#mail,input#url {width: 30%; padding: 4px 4px;}
 /* 404 */
 #nopage {background:url(images/404.png) no-repeat center 50px; min-height:250px; text-align:center; padding-top:160px;}
 /* Footer */
-#footer {font-size:12px; font-family:Tahoma, Helvetica, Arial; color:#999; padding:15px 0; text-align:center;}
-h3.panel-title {font-size:12px; color:#999;}
+#footer {font-size:12px; line-height: 1.8; color:#999; padding:15px 0; text-align:center;}
 #footer a {color:#666;}
+#footer nav a {font-size:14px; margin: 0 5px;}
+.lins {font-size:14px;}
 /* 多屏幕适配 */
-@media print, screen and (max-width:1290px) {
+@media print, screen and (max-width:768px) {
 #search {display: none !important;}
 #top {overflow:scroll;}
 #wrap {margin:0 auto;width:auto}
 .post_artice img {max-width:100%; height:auto;}
 #comment_form button {width:auto; padding:0px 5px;}
 #nav li {margin-right: 7.5px; margin-left: 7.5px;}
+#top {box-shadow:none;}
+.post {border:none; box-shadow:none; margin-bottom: 10px;}
+body {background:#f6f6f6 repeat;}
+.page-navigator {margin: 0px 0px 0px 15px;}
+.respond {border:none;}
+.comments_box {border:none;}
+input#author,input#mail,input#url {width: 95%; margin-bottom: .5em;}
 }
 

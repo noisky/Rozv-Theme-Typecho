@@ -20,11 +20,6 @@
             <?php while($categories->next()): ?>
                 <li<?php if($this->is('category', $categories->slug)): ?> class="current"<?php endif; ?>><a href="<?php $categories->permalink(); ?>"><?php $categories->name(); ?></a></li>
             <?php endwhile; ?>
-			<!--顶部菜单栏输出独立页面-->
-			<?php $this->widget('Widget_Contents_Page_List')->to($pages); ?> 
-            <?php while($pages->next()): ?>
-                <li<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?>><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
-            <?php endwhile; ?>
         </ul>
         <form id="search" method="post" action="<?php $this->options->siteUrl(); ?>">
             <input type="text" name="s" class="text" size="20" required />
