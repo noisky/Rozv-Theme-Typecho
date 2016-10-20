@@ -1,6 +1,8 @@
 # Rozv-Theme-Typecho
 一款极精简的 Typecho 模板，响应式设计
 
+<img src="http://noisky.qiniudn.com/theme_preview.png"  alt="Rozv-Theme-Typecho" />
+
 该模板基于 <a href="https://www.prower.cn/work/2326" target="_blank">Prower</a> 版基础上进行精简和修改
 
 - 顶部菜单栏使用了分类和独立页面。
