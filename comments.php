@@ -57,7 +57,7 @@ echo $commentClass;
                     </li>
                 </ul>
                 <?php endif; ?>
-                <p><textarea rows="3" cols="50" name="text" id="textarea" placeholder="添加一条评论" required ><?php $this->remember('text'); ?></textarea><div><button type="submit" class="submit">评 论</button></p></div>
+                <p><textarea rows="3" cols="50" name="text" id="textarea" placeholder="添加一条评论" required ><?php $this->remember('text'); ?></textarea><div><button type="submit" class="submit">评 论</button>&nbsp&nbsp<?php Smilies_Plugin::output(); ?></p></div>
             </form>
         </div>
     <?php else: ?>
