@@ -44,5 +44,4 @@
     	    <small class="description"><?php $this->options->description() ?></small>
         </div>
 		
-		
     </header>

@@ -1,5 +1,3 @@
-<?php if($this->is('index')): ?>
-<?php else: ?>
 <?php
 /**
  * 1.这是一套由 Noisky 修改的基于 Rozv 的简洁的响应式模板，支持 Typecho 1.0
@@ -28,4 +26,3 @@ $this->need('header.php');
 <?php endwhile; ?>
 <?php $this->pageNav(); ?>
 <?php $this->need('footer.php'); ?>
-<?php endif;?>
