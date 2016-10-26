@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head profile="http://gmpg.org/xfn/11">
-    <meta http-equiv="content-type" content="text/html; charset=<?php $this->options->charset(); ?>" />
+    <meta charset="<?php $this->options->charset(); ?>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="renderer" content="webkit">
 	<meta name="viewport" content="width=device-width,user-scalable=no">
     <title><?php $this->archiveTitle(' &raquo; ', '', ' - '); ?><?php $this->options->title(); ?></title>
     <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css'); ?>" />
@@ -41,4 +43,6 @@
             </h1>
     	    <small class="description"><?php $this->options->description() ?></small>
         </div>
+		
+		
     </header>
