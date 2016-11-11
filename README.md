@@ -3,6 +3,8 @@
 
 <img src="http://noisky.qiniudn.com/theme-preview-1.png"  alt="Rozv-Theme-Typecho" />
 
+Demo:  https://demo.noisky.cn/
+
 该模板基于 <a href="https://www.prower.cn/work/2326" target="_blank">Prower</a> 版基础上进行精简和修改
 
 版本更新到1.2.1
@@ -17,7 +19,6 @@
 
 - 如需使用友情链接，可自行增加独立页，可直接使用 `<links></links>` 调用寒泥的 <a href="https://github.com/noisky/Links-for-Rozv-Theme" target="_blank">Links插件</a> 
 
-Demo:https://demo.noisky.cn/
 
 =============
 
