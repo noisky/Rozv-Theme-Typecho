@@ -3,7 +3,7 @@
 
 <img src="http://noisky.qiniudn.com/theme-preview-1.png"  alt="Rozv-Theme-Typecho" />
 
-Demo:  https://demo.noisky.cn/
+Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 该模板基于 <a href="https://www.prower.cn/work/2326" target="_blank">Prower</a> 版基础上进行精简和修改
 
