@@ -7,7 +7,7 @@ Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 该模板基于 <a href="https://www.prower.cn/work/2326" target="_blank">Prower</a> 版基础上进行精简和修改
 
-版本更新到1.2.1
+版本更新到 v1.3.0
 
 - 底部输出独立页面
 
@@ -19,6 +19,7 @@ Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 - 如需使用友情链接，可自行增加独立页，可直接使用 `<links></links>` 调用寒泥的 <a href="https://github.com/noisky/Links-for-Rozv-Theme" target="_blank">Links插件</a> 
 
+- 新增归档页面 （需自行新建归档页，缩略名为 archive ，自定义模板选择 archive ）
 
 =============
 
