@@ -36,6 +36,25 @@ blockquote p {margin-bottom:10px;}
 .alignright {float:right;}
 img.alignleft {margin-right:15px;}
 img.alignright {margin-left:15px;}
+/* 分类归档 */
+.posts-collapse::before{content:" ";position:absolute}
+.posts-collapse{position:relative}
+.archive-page-counter{position:relative;top:3px;left:20px}
+.archive-move-on {position: absolute;top: 8px;left: 0;margin-left: -6px;width: 10px;height: 10px;opacity: 0.5;background: #555;border: 1px solid #fff;border-radius: 50%;}
+.collection-title{position:relative;margin:35px 0}
+.collection-title h2{margin-left:20px}
+.collection-title small{color:#bbb}
+.collection-title::before{position:absolute;top:50%;left:0;margin-top:-4px;margin-left:-4px;width:8px;height:8px;border-radius:50%;background:#bbb;content:" "}
+.post-meta {font-size: 12px;left: 20px;top: 2px;position: absolute;}
+.post-header{position:relative;border-bottom:1px dashed #ccc;margin: 15px 60px 0px 0px;}
+.post-header::before{position:absolute;top:7px;left:0;margin-left:-4px;width:6px;height:6px;border:1px solid #fff;border-radius:50%;background:#bbb;content:" ";transition-delay:0s;transition-timing-function:ease-in-out;transition-duration:.2s;transition-property:background}
+.post-header:hover{border-bottom-color:#666}
+.post-header:hover::before{background:#222}
+.post-title-link{position:relative;display:inline-block;border-bottom:none;color:#555;vertical-align:top;line-height:1.2;margin: 0px 0px 10px 0;}
+.post-title-link:hover::before{visibility:visible;transform:scaleX(1)}
+.post-title-link .fa{font-size:16px}
+.post-title {margin-left: 70px;font-size: 16px;font-weight: normal;font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;line-height: inherit;}
+hac{margin: 20px 0 10px;}
 #wrap {margin:0 auto; width:850px;}
 /* Tables */
 table {border-collapse:separate; border-spacing:0;}
@@ -133,7 +152,6 @@ input#author,input#mail,input#url {width: 30%; padding: 4px 4px;}
 .lins {font-size:14px;}
 /* 多屏幕适配 */
 @media print, screen and (max-width:768px) {
-#search {display: none !important;}
 #top {overflow:scroll;}
 #wrap {margin:0 auto;width:auto}
 .post_artice img {max-width:100%; height:auto;}

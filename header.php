@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width,user-scalable=no">
     <title><?php $this->archiveTitle(' &raquo; ', '', ' - '); ?><?php $this->options->title(); ?></title>
     <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css'); ?>" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>">
+	<link rel="shortcut icon" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>">
     <!–[if IE]>
         <script src="<?php $this->options->themeUrl('html5.js'); ?>"></script>
     <![endif]–>
@@ -43,5 +45,4 @@
             </h1>
     	    <small class="description"><?php $this->options->description() ?></small>
         </div>
-		
     </header>
