@@ -1,5 +1,6 @@
 <footer id="footer">
 <!--底部输出独立页面-->
+<br>
 <nav>
 <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?> 
 <?php while($pages->next()): ?><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a>

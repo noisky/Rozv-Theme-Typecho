@@ -1,7 +1,7 @@
 <?php    
    /**  
     * archive
-    * @Noisky   
+    * @package custom   
     */    
 Typecho_Widget::widget('Widget_Stat')->to($stat);
 $this->need('header.php');?>   
