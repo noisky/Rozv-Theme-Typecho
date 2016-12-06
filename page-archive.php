@@ -4,7 +4,9 @@
     * @package custom   
     */    
 Typecho_Widget::widget('Widget_Stat')->to($stat);
-$this->need('header.php');?>   
+?>
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
+<?php $this->need('header.php');?>   
 <section class="post">
 <section id="posts" class="posts-collapse">
 <span class="archive-move-on"></span>
