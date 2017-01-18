@@ -3,7 +3,7 @@
     <?php $this->comments('comment')->to($comments); ?>
     <?php if($this->allow('comment')): ?>
         <div id="<?php $this->respondId(); ?>" class="respond">
-            <div class="cancel-comment-reply"><?php $comments->cancelReply(); ?></div>
+            <div class="comment-head"><p>发表评论<span class="cancel-comment-reply"><?php $comments->cancelReply(); ?></span></p></div>
             <form method="post" action="<?php $this->commentUrl() ?>" id="comment_form">
                 <?php if($this->user->hasLogin()): ?>
                 <p><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="退出">退出</a></p>

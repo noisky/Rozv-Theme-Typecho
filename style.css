@@ -114,6 +114,8 @@ legend {font-weight:bold;}
 .comments_box {border:1px solid #ddd; background:#fff; padding:24px;}
 .comments_count {text-align:right; margin:10px 10px; font-size:12px; color:#999;}
 .comment-child {margin-left:15px; border-top:1px dashed #ddd; padding-top:15px;}
+.comment-head {font-size:16px;}
+.comment-head p{margin-left:0px !important;}
 .comment-list li {border-bottom:1px solid #ddd; margin-bottom:20px; position:relative;}
 .comment-list .comment-children li {border-bottom:none; margin-bottom:0;}
 .comment-list li.comment-by-author {}
@@ -130,13 +132,14 @@ legend {font-weight:bold;}
 img.avatar {float:left; margin-right:10px;}
 .respond {background:#fff; padding:24px; border:1px solid #ddd; margin-bottom:10px;}
 #comment_form {padding-right:8px;}
-.respond .cancel-comment-reply {text-align:right; margin-right:10px; font-size:11px;}
+.respond li {border-bottom:none;}
+.respond .cancel-comment-reply {font-size:11px; margin-left: 5px;}
 .respond .cancel-comment-reply a {color:#aaa;}
 .respond .cancel-comment-reply a:hover {color:#444;}
 #comment_form p {font-size:12px; margin:0 0 5px; clear:left;}
 #comment_form label {font-size:12px; color:#555; display:block;}
 #comment_form label .required {color:#C04E37; padding-left:5px;}
-#comment_form textarea {font-size:14px; height:80px; line-height:24px; padding:3px 4px; width:95%;}
+#comment_form textarea {font-size:14px; height:95px; line-height:24px; padding:3px 4px; width:100%; resize: vertical;}
 #comment_form button {background:#666; border:1px solid #444; color:#fff; font-size:14px; cursor:pointer; text-shadow:1px 1px #000; height:32px; line-height:32px; width:8%; text-align:center; vertical-align:top;}
 #comment_form button:hover {background:#222; border-color:#000;}
 .login_meta {margin-bottom:10px; overflow:hidden;}

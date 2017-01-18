@@ -7,7 +7,7 @@ Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 该模板基于 <a href="https://www.prower.cn/work/2326" target="_blank">Prower</a> 版基础上进行精简和修改
 
-版本更新到 v1.3.0
+版本更新到 v1.3.1
 
 - 底部输出独立页面
 
