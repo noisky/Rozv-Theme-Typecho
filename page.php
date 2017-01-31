@@ -1,4 +1,6 @@
-<?php $this->need('header.php'); ?>
+<?php 
+if (!defined('__TYPECHO_ROOT_DIR__')) exit;
+$this->need('header.php'); ?>
 <section class="post">
 	<header class="post_head">
 		<h2><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>

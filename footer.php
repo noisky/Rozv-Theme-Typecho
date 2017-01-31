@@ -1,3 +1,4 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <footer id="footer">
 <!--底部输出独立页面-->
 <br>
@@ -9,7 +10,9 @@
 &copy; <?php _e(date('Y')) ?> <a href="<?php $this->options->siteurl(); ?>"><?php $this->options->title(); ?></a> | Powered by <a href="http://www.typecho.org" target="_blank">Typecho)))</a>
 <?php if($this->options->miibeian) : ?>
 <br><a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow"><?php echo $this->options->miibeian; ?></a>
-<?php endif; ?></footer>
+<?php endif; ?>
+</footer>
 <?php $this->footer(); ?>
+</div>
 </body>
 </html>

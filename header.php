@@ -1,3 +1,4 @@
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <!DOCTYPE html>
 <html>
 <head profile="http://gmpg.org/xfn/11">
@@ -9,9 +10,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('style.css'); ?>" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>">
 	<link rel="shortcut icon" href="<?php $this->options->themeUrl('images/favicon.ico'); ?>">
-    <!–[if IE]>
+    <!--[if IE]>
         <script src="<?php $this->options->themeUrl('html5.js'); ?>"></script>
-    <![endif]–>
+    <![endif]-->
     <?php $this->header(); ?>
 </head>
 

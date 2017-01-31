@@ -1,4 +1,4 @@
-
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
 <article id="comments">
     <?php $this->comments('comment')->to($comments); ?>
     <?php if($this->allow('comment')): ?>
