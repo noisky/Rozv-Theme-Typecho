@@ -21,6 +21,7 @@ Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 - 新增归档页面 （需自行新建归档页，缩略名为 archive ，自定义模板选择 archive ）
 
-=============
+配合该背景特效使用，效果更佳哦
+<a href="https://ffis.me/experience/canvas-nest.html" target="_blank">https://ffis.me/experience/canvas-nest.html</a>
 
 > 非常感谢 <a href="http://www.xiazhanjian.com/" target="_blank">下站见</a> 大佬提出的建议
