@@ -3,7 +3,7 @@
  *
  * @author	Noisky＆摄氏度
  * @link	http://www.noisky.cn/
- * @update	2016-10-20
+ * @update	2017-11-30
  * --------------------------------- */
 body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea {margin: 0; padding: 0;}
 header,footer,article,section,nav,menu,hgroup {display:block;}
@@ -142,10 +142,10 @@ img.avatar {float:left; margin-right:10px;}
 #comment_form textarea {font-size:14px; height:95px; line-height:24px; padding:3px 4px; width:100%; resize: vertical;}
 #comment_form button {background:#666; border:1px solid #444; color:#fff; font-size:14px; cursor:pointer; text-shadow:1px 1px #000; height:32px; line-height:32px; width:8%; text-align:center; vertical-align:top;}
 #comment_form button:hover {background:#222; border-color:#000;}
-.login_meta {margin-bottom:10px; overflow:hidden;}
+.login_meta {margin-bottom:10px;}
 .login_meta li {float:none;}
 .login_meta input {font-size: 14px; padding: 5px 0;}
-input#author,input#mail,input#url {width: 30%; padding: 4px 4px;}
+input#author,input#mail,input#url {width: 31.5%; padding: 4px 4px;}
 /* 404 */
 #nopage {background:url(images/404.png) no-repeat center 50px; min-height:250px; text-align:center; padding-top:160px;}
 /* Footer */
@@ -166,6 +166,6 @@ body {background:#f6f6f6 repeat;}
 .page-navigator {margin: 0px 0px 0px 15px;}
 .respond {border:none;}
 .comments_box {border:none;}
-input#author,input#mail,input#url {width: 95%; margin-bottom: .5em;}
+input#author,input#mail,input#url {width: 100%; margin-bottom: .5em;}
+#search {float: left;}
 }
-

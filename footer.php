@@ -14,5 +14,10 @@
 </footer>
 <?php $this->footer(); ?>
 </div>
+<script>
+if (screen && screen.width > 480) {
+  document.write('<script type="text/javascript" color="102,185,255" opacity="50" zIndex="-2" count="99" src="//static.ffis.me/javascript/canvas-nest.min.js"><\/script>');
+}
+</script>
 </body>
 </html>
