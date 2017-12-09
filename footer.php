@@ -20,4 +20,6 @@ if (screen && screen.width > 480) {
 }
 </script>
 </body>
+<!-- 统计代码 -->
+<?php $this->options->statiStics()?>
 </html>
