@@ -6,7 +6,7 @@
  * 4.增加了归档页（需自行新建归档页，缩略名为 archive ，自定义模板选择 archive ）
  * @package Rozv
  * @author Noisky
- * @version 1.3.1
+ * @version 1.3.2
  * @link http://www.ffis.me
  * @原作者 摄氏度
  */
