@@ -1,7 +1,7 @@
 # Rozv-Theme-Typecho
 一款极精简的 Typecho 模板，响应式设计
 
-<img src="http://noisky.qiniudn.com/theme-preview-1.png"  alt="Rozv-Theme-Typecho" />
+<img src="https://img.ffis.me/images/2019/10/25/3582909671.png"  alt="Rozv-Theme-Typecho" />
 
 Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
@@ -23,6 +23,6 @@ Demo:  <a href="https://demo.noisky.cn/" target="_blank">demo.noisky.cn</a>
 
 ---------------------------
 配合该背景特效使用，效果更佳哦
-<a href="https://img.ffis.me/images/2019/10/25/3582909671.png" target="_blank">https://ffis.me/experience/canvas-nest.html</a>
+<a href="https://ffis.me/experience/canvas-nest.html" target="_blank">https://ffis.me/experience/canvas-nest.html</a>
 
 > 非常感谢 <a href="http://www.xiazhanjian.com/" target="_blank">下站见</a> 大佬提出的建议
